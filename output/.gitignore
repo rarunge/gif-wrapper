@@ -1,0 +1,5 @@
+# This file is to conveniently allow an empty directory to be shared for video file usage once downloaded.
+# Ignore everything in this directory...
+*
+# ...except this file:
+!.gitignore
