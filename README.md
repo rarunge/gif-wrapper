@@ -24,7 +24,7 @@ Open Mac's terminal and complete the following steps
 ```cd ~/Desktop/gif-wrapper```
 
 2) Example use, after placing input files in ./input, would be:
-```./script/ffmpeg-batch.sh MOV gif ./input ./output '-r 30 -vf scale=720:-1'```
+```./script/ffmpeg-batch.sh mov gif ./input ./output '-r 30 -vf scale=720:-1'```
 
 In the example above, the ffmpeg script converts any MP4 file in ./input to gif format. You can use different formats for either input and output. The frame rate in that example is set to 30 frames/sec; scaling 720px, while keeping the original aspect ratio. The gif you created will be saved to the ./output folder of the gif-wrapper directory.
 
